@@ -75,7 +75,6 @@ document.getElementById('Button').addEventListener('click', function() {
     }
   });
 
-  // Hàm kiểm tra số nguyên tố
   function isPrime(num) {
     if (num <= 1) return false;
     for (let i = 2; i <= Math.sqrt(num); i++) {
@@ -86,7 +85,6 @@ document.getElementById('Button').addEventListener('click', function() {
     return true;
   }
 
-  // Hàm tìm các số nguyên tố từ 1 đến n
   function findPrimes(n) {
     const primes = [];
     for (let i = 2; i <= n; i++) {
